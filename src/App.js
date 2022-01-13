@@ -33,7 +33,7 @@ function App({ loadEmployees }) {
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                 <Nav.Link onClick={signOut}>Signout</Nav.Link>
-                <Nav.Link href="#">Welcome {user.username}</Nav.Link>
+                <Nav.Link href="#">Welcome {user.username}.....! </Nav.Link>
               </Nav>
             </Container>
           </Navbar>
